@@ -1,0 +1,28 @@
+.header {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #ddd;
+}
+
+.title {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+.subtitle {
+  margin: 0;
+  color: #555;
+}
