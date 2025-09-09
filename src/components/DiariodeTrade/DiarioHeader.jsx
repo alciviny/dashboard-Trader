@@ -12,6 +12,21 @@ function DiarioHeader() {
           </p>
         </div>
       </div>
+     
+     <nav>
+        <button className={styles.button}>
+          <span>Diário</span>
+        </button>
+
+         <button className={styles.button}>
+          <span>anotações</span>
+        </button>
+
+        <button className={styles.button}>
+          <span>Agenda</span>
+        </button>
+
+     </nav>
     </header>
   );
 }
